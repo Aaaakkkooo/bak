@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/theme/material-darker.min.css">
+</head>
+<body>
+    <header>
+        <h1>Виртуалды зертхана</h1>
+    </header>
+    <main>
+        <section id="lab-list">
+            <h2>ҚОЛ ЖЕТКІЗІЛГЕН зертханалар</h2>
+            <ul id="labs">
+                <!-- Лабораторные работы будут добавлены здесь через JavaScript -->
+            </ul>
+            <input id="import" type="file" accept=".txt" />
+            <button id="export">Экспорт</button>
+        </section>
+        <section id="add-lab">
+            <h2>Жаңа лаборатория қосу</h2>
+            <form id="lab-form">
+                <label for="title">Тақырып:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="description">Сипаттамасы:</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Лаборатория қосу</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

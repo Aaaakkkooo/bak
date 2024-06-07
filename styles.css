@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+header {
+    background-color: #1F1F1F;
+    color: #FF5722;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #FF5722;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #FF5722;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #FF5722;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E64A19;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1F1F1F;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    margin: 0;
+    color: #FF5722;
+}
+
+.delete-lab {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #FF5722;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-lab:hover {
+    background-color: #E64A19;
+}
+
+.navigate-lab {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #FF5722;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigate-lab:hover {
+    background-color: #E64A19;
+}
+
+#python-lab {
+    background-color: #1F1F1F;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#python-code {
+    width: 100%;
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+#python-output {
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
